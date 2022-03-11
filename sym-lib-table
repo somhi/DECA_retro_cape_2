@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "custom_parts")(type "Legacy")(uri "${KIPRJMOD}/libraries/custom_parts/custom_parts.lib")(options "")(descr ""))
+  (lib (name "AS4C32M16SA7TIN")(type "Legacy")(uri "${KIPRJMOD}/libraries/ul_AS4C32M16SA7TIN/KiCAD/2021-06-16_01-23-01/2021-06-16_01-23-01.lib")(options " pwr_sym_only")(descr ""))
+  (lib (name "AS4C32M16SB7TIN")(type "Legacy")(uri "${KIPRJMOD}/libraries/AS4C32M16SB7TIN/KiCAD/2021-06-16_01-23-01/2021-06-16_01-23-01.lib")(options " pwr_sym_only")(descr ""))
+  (lib (name "vga_db15_female")(type "Legacy")(uri "${KIPRJMOD}/libraries/db15_female/181-015-213R561.lib")(options " pwr_sym_only")(descr ""))
+  (lib (name "arrow_deca_retro_cape-rescue")(type "Legacy")(uri "${KIPRJMOD}/arrow_deca_retro_cape-rescue.lib")(options "")(descr ""))
+  (lib (name "MD60SM")(type "Legacy")(uri "${KIPRJMOD}/libraries/ul_MD60SM/KiCAD/2021-07-02_23-52-55/2021-07-02_23-52-55.lib")(options "")(descr ""))
+  (lib (name "zxuno-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/libraries/zxuno-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "gomaDOSzero-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/libraries/gomaDOSzero-eagle-import.kicad_sym")(options "")(descr ""))
+)

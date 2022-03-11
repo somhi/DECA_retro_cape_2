@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "pwr_BeagleBone")(type "KiCad")(uri "${KIPRJMOD}/pwr_BeagleBone.kicad_sym")(options "")(descr ""))
+)
