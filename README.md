@@ -47,3 +47,5 @@ v0.62 all finished except VGA R2R schematic and routing
 v0.65 power header changed, minor aesthetic changes
 
 v0.68 added vga schematic and indiv. R 0805 into layout
+
+v0.70 routing finished including vga

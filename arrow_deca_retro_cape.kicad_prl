@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 41,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -61,7 +61,7 @@
       36
     ],
     "visible_layers": "003fe22_80000007",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "arrow_deca_retro_cape.kicad_prl",
