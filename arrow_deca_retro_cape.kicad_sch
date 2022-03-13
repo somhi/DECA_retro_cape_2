@@ -2512,7 +2512,6 @@
     )
   )
 
-
   (junction (at 45.72 34.29) (diameter 0) (color 0 0 0 0)
     (uuid 071522c0-d0ed-49b9-906e-6295f67fb0dc)
   )
@@ -5806,7 +5805,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 64.135 218.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061199143)
-    (property "Reference" "J2" (id 0) (at 66.167 217.3732 0)
+    (property "Reference" "JP2" (id 0) (at 66.167 217.3732 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (id 1) (at 66.167 219.6846 0)
@@ -8270,9 +8269,6 @@
     (path "/09660697-d5c8-4aef-8c5c-0260789058fc"
       (reference "J1") (unit 1) (value "DB15_Female_HighDensity") (footprint "vga:DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm")
     )
-    (path "/00000000-0000-0000-0000-000061199143"
-      (reference "J2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
     (path "/e9a4ad61-c16f-4a36-9385-12858092576f"
       (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
@@ -8332,6 +8328,9 @@
     )
     (path "/89a21c9f-9407-43f7-a119-f1498ddcb99e"
       (reference "JP1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061199143"
+      (reference "JP2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/439aafdc-2c0e-44db-ab96-7212e6daa700"
       (reference "R1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
