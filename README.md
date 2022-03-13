@@ -4,9 +4,7 @@
 
 Project has been developed with KiCAD 6.0. 
 
-All credits for SDRAM design goes to Tom Verbeure from whom I've taken his [original design  files](https://github.com/tomverbeure/arrow_deca_retro_cape) and adapted to my own design.
 
-As I already developed an Edge to Pmod PCB, I'll be using here attached to the DECA cape. See details at https://github.com/somhi/MIDI_I2S_SBC_Pmod_Edge_Interface
 
 ### **Schematic**
 
@@ -43,3 +41,5 @@ As I already developed an Edge to Pmod PCB, I'll be using here attached to the D
 v0.5  routed finalized
 
 v0.6  MiSTer SDRAM only version. Changed to 2 layer board.
+
+v0.62 all finished except VGA R2R schematic and routing
