@@ -386,6 +386,7 @@
           "+3V3",
           "+5V",
           "/3V3_LDO",
+          "/VH_PMOD",
           "GND",
           "GNDA"
         ],
@@ -458,6 +459,6 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "0.61"
+    "VERSION": "0.62"
   }
 }
