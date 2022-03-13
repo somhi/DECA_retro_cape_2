@@ -120,7 +120,8 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.35
       ],
       "via_dimensions": [
         {
@@ -390,7 +391,7 @@
           "GND",
           "GNDA"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 31, 67)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.762,
@@ -459,6 +460,6 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "0.7"
+    "VERSION": "0.71"
   }
 }

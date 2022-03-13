@@ -12,8 +12,16 @@ Project has been developed with KiCAD 6.0.
 
 ### **Features**
 
-* 
-  
+* VGA DAC 444
+* Terasic 40 pin connector (for Mister SDRAM modules) + 3 pin for Dual SDRAM/SRAM 
+* DB9 connector for joystick (Sega megadrive)
+* USB3 User Port (for SNAC adapters SNES, Atari, ...)
+* Double Pmod (1/2) for peripherals (VGA Pmod, Hyperram, ...)
+* PS2 keyboard & mouse connectors
+* Pmod3 (SPI + UART) host or peripheral 
+* DETO Pmod (6 pin) for general usage
+* UART (Rx/Tx) header
+* Power supply header (5V, 3V3, 3V3 LDO, 2V5 LDO, 1V8 analog)
 
 ### 3D model
 
@@ -25,14 +33,11 @@ Project has been developed with KiCAD 6.0.
 
 
 
-### **Additional notes**
-
-* 
-  
-
 ### **Jumper Selection**
 
-* 
+* JP1 jumper select Pmod 3 acting as peripheral (no jumper) or host (with jumper)
+
+* JP2 jumper selects 3V3 power supply from Deca board or from LDO (5V to 3V3)
 
   
 
