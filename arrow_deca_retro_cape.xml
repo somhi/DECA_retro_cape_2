@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/jordi/Documents/Coding/Kicad/a_DECA_CAPE/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch</source>
-    <date>Mon 14 Mar 2022 22:55:52 CET</date>
+    <source>/home/jordi/Kicad/a_DECA_CAPE/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch</source>
+    <date>Tue 15 Mar 2022 19:57:17 CET</date>
     <tool>Eeschema 6.0.0-d3dd2cf0fa~116~ubuntu20.04.1</tool>
     <textvar name="VERSION">0.71</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -26,7 +26,7 @@
   </design>
   <components>
     <comp ref="C18">
-      <value>10uF</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -35,7 +35,7 @@
       <tstamps>00000000-0000-0000-0000-0000612c6c71</tstamps>
     </comp>
     <comp ref="C19">
-      <value>100uF</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -44,7 +44,7 @@
       <tstamps>00000000-0000-0000-0000-000061573ffc</tstamps>
     </comp>
     <comp ref="C20">
-      <value>10uF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -53,7 +53,7 @@
       <tstamps>dbc6bf33-0237-48dc-ae27-ad54518f632a</tstamps>
     </comp>
     <comp ref="C21">
-      <value>100uF</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -1274,7 +1274,7 @@
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="zxuno-eagle-import">
-      <uri>/home/jordi/Documents/Coding/Kicad/a_DECA_CAPE/DECA_retro_cape_2 (2-layer)/libraries/zxuno-eagle-import.kicad_sym</uri>
+      <uri>/home/jordi/Kicad/a_DECA_CAPE/DECA_retro_cape_2 (2-layer)/libraries/zxuno-eagle-import.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
