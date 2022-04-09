@@ -1,6 +1,10 @@
 # Arrow DECA Retro Cape 2 (2 layer - MiSTer module SDRAM version)
 
-**STATUS (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.**
+**STATUS** (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.
+
+**STATUS** (07/04/22):  PCBs received. Started testing. See end of readmed for changelog and improvements from v0.71
+
+
 
 Project has been developed with KiCAD 6.0. 
 
@@ -56,3 +60,18 @@ v0.68 added vga schematic and indiv. R 0805 into layout
 v0.70 routing finished including vga
 
 v0.71 finished prototype desing. Gerber sent to JLCPCB for manufacturing.
+
+
+
+### TODO changes / improvements
+
+* footprint VGA does not fit connectors
+* DETO Pmod change to socket instead of header
+* Modify footprint of USB3
+* make bigger open hardware logo top layer
+* remove vs/hs testpoints ?   1V8 ? power header ?
+* U5 LDO 2V5 footprint not corresponds to LDO_2V5_NCV4274AST25T3G component
+* Change limiting resistor of 180 Ohm to 500 Ohm
+* BAT54S protection ????
+* Change joystick 2V5 protection  
+
