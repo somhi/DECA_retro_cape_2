@@ -1,12 +1,12 @@
-# Arrow DECA Retro Cape 2 (2 layer - MiSTer module SDRAM version)
+# DECA Retro Cape 2 (2 layer - MiSTer module SDRAM version)
 
 **STATUS** (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.
 
-**STATUS** (07/04/22):  PCBs received. Started testing. See end of readmed for changelog and improvements from v0.71
-
-
+**STATUS** (07/04/22):  PCBs received. Started testing. Joystick (DB9 and USB3) part must be redesigned in the next release. See end of readme for changelog and improvements from v0.71
 
 Project has been developed with KiCAD 6.0. 
+
+I want to give cretits to Tom Verbeure from whom I've taken his [original design  files](https://github.com/tomverbeure/arrow_deca_retro_cape) and adapted to my own design. Not much have been left from his design, but the name "DECA Retro Cape" remains.  
 
 
 
@@ -65,13 +65,22 @@ v0.71 finished prototype desing. Gerber sent to JLCPCB for manufacturing.
 
 ### TODO changes / improvements
 
-* footprint VGA does not fit connectors
-* DETO Pmod change to socket instead of header
-* Modify footprint of USB3
+* footprint DB15 VGA does not fit connectors buyed in China (needed to bend pins)
+* DETO Pmod connector change to socket type instead of pin type
+* Modify footprint of USB3 for an economical one
 * make bigger open hardware logo top layer
 * remove vs/hs testpoints ?   1V8 ? power header ?
-* U5 LDO 2V5 footprint not corresponds to LDO_2V5_NCV4274AST25T3G component
-* Change limiting resistor of 180 Ohm to 500 Ohm
-* BAT54S protection ????
-* Change joystick 2V5 protection  
+* U5 LDO 2V5 footprint do not correspond to LDO_2V5_NCV4274AST25T3G component
+* 2V5 LDO gives 2.5 without connecting Deca. With Deca connected output goes to 2.74 V. With Sega megadrive connected goes to 2.64 V. Atari joystick 2.74V.
+* Change limiting resistor of 180 Ohm to 510 Ohm
+  * ps2 keyboard change R to 510 Ohm
+  * ps2 mouse add pulldown footprints and R 180 Ohm, so I can have 1 ps2 keyb and 1 usb keyb
+
+* BAT54S protection
+  * It does not work very well
+  * Put Resistors in front of BAT54, not after
+  * Change joystick 2V5 protection  for voltage dividers ??
+  * ps2 BATs give 3.6V at GPIOs
+
+* PCB Hole for conf leds
 
