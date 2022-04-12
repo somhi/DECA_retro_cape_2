@@ -75,12 +75,14 @@ v0.71 finished prototype desing. Gerber sent to JLCPCB for manufacturing.
 * Change limiting resistor of 180 Ohm to 510 Ohm
   * ps2 keyboard change R to 510 Ohm
   * ps2 mouse add pulldown footprints and R 180 Ohm, so I can have 1 ps2 keyb and 1 usb keyb
-
 * BAT54S protection
   * It does not work very well
   * Put Resistors in front of BAT54, not after
   * Change joystick 2V5 protection  for voltage dividers ??
   * ps2 BATs give 3.6V at GPIOs
 
+### TODO improvements
+
 * PCB Hole for conf leds
+* Mounting holes for stacking MIDI2SBC pcb
 
