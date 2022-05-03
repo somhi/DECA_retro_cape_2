@@ -2,13 +2,11 @@
 
 **STATUS** (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.
 
-**STATUS** (07/04/22):  PCBs received. Started testing. Joystick (DB9 and USB3) part must be redesigned in the next release. See end of readme for changelog and improvements from v0.71
+**STATUS** (07/04/22):  PCBs received. Started testing. **Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release**. See end of readme for changelog and improvements from v0.71
 
 Project has been developed with KiCAD 6.0. 
 
-I want to give cretits to Tom Verbeure from whom I've taken his [original design  files](https://github.com/tomverbeure/arrow_deca_retro_cape) and adapted to my own design. Not much have been left from his design, but the name "DECA Retro Cape" remains.  
-
-
+I want to give credits to Tom Verbeure from whom I've taken his [original design  files](https://github.com/tomverbeure/arrow_deca_retro_cape) and adapted to my own design. Not much have been left from his design, but the name "DECA Retro Cape" remains.  
 
 ### **Schematic**
 
@@ -61,6 +59,8 @@ v0.70 routing finished including vga
 
 v0.71 finished prototype desing. Gerber sent to JLCPCB for manufacturing.
 
+v0.72 updated pinout spreadsheet and Readme with testing notes and improvements to be done
+
 
 
 ### TODO changes / improvements
@@ -77,12 +77,44 @@ v0.71 finished prototype desing. Gerber sent to JLCPCB for manufacturing.
   * ps2 mouse add pulldown footprints and R 180 Ohm, so I can have 1 ps2 keyb and 1 usb keyb
 * BAT54S protection
   * It does not work very well
-  * Put Resistors in front of BAT54, not after
+  * Put Resistors in front of BAT54, not after   -> test with keyboard
   * Change joystick 2V5 protection  for voltage dividers ??
   * ps2 BATs give 3.6V at GPIOs
+    * Without BAT54 gives 5V, so BAT54 do its function here
+    * try put pin 3 of BAT connected after R1/R2
+* Remove JTAG pads
+* DETO3_JOY_MUX is a 3V3 gpio. Add zenner 3v3 not 2v4
 
 ### TODO improvements
 
 * PCB Hole for conf leds
 * Mounting holes for stacking MIDI2SBC pcb
+* Terasic connector, add jumpers on 5V & 3V3 to disconnect, so I can connect it to the Sockit GPIO board
+* Reduce lenght of board in VGA wing side
 
+### TESTS
+
+19/04/22 Test circuit amb BATs
+
+* en buit, pin ps2_keyb_dat, a 4.8V tant amb el BAT abans con després de la R (idem resultats amb R 180 i amb R 470)
+
+* en càrrega (deca connectada), pin ps2_keyb_dat, a 4.8V tant amb el BAT abans con després de la R (idem 180 i 470)
+
+* Posant R pullup (i sense BATs) tal com esquema Tom Verbeure també obtinc 5V als pins FPGA. Provat amb 4k7 i 10k.    També he provat de simular impedància FPGA posant una R de 1 MOhm entre pin FPGA i GND, amb resultats similars.
+
+
+25/04/22  Test esquema tipus Tom Verbeure retrocape, amb Deca connectada a la cape
+
+![tom-verbeure-retrocape_pullups](datasheets-references/Ref_ps2/tom-verbeure-retrocape_pullups.jpg)
+
+Valors resistències provades: R1/2 = 470 Ohm, R3/4 = 4k7 Ohm 
+
+* Amb jumper V-LDO  (Alimentació LDO) tot el rail de 3V3 es posa a 4.6V 
+* Amb jumper V-3V3  (alimentació Deca) el rail de 3V3 continua a 3V3 
+  * Pin PS2 FPGA està a 4.6 V
+
+25/04/22 Proves divisors de tensió
+
+* r1 470, r2 2k   només funciona teclat Logitech (usb/ps2 i l'altre no funcionen). Tensió pins fpga = 2.54V
+
+  
