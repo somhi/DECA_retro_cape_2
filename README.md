@@ -69,6 +69,10 @@ v0.72 updated pinout spreadsheet and Readme with testing notes and improvements 
 
 v0.75 Improvements from testing phase. See below
 
+v0.76 Double pmod 1&2 now compatible with pmod RGB module of MuseLabs (added 4 shared pins)
+
+v0.77 
+
 
 
 #### v0.75 changes
@@ -91,17 +95,18 @@ v0.75 Improvements from testing phase. See below
 
 * JP4 jumper to enable 5V at VGA pin 9 to make use of VGA to SCART cables for 15 kHz RGB video
 
-* Added PCB Hole for seeing conf_done, rx, tx leds
+* Added PCB Hole for seeing Conf_done, Rx, Tx leds
 
   
-  
-  
-  
-  
+
+#### v0.77 changes
+
+* 
+
+
 
 ### TODO changes 
 
-* Double pmod compatible with RGB module of MuseLabs
 * Protections
   * For ps2 use 3V6 (or 4V) zeners.  BAT54 could be used also with 3V3 supplied by Deca
   * Joy pull-up not working with the zener protections, gives 1 V so cores get crazy.
