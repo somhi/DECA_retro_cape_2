@@ -386,6 +386,7 @@
           "+3.3VP",
           "+3V3",
           "+5V",
+          "/+JOY_PWR",
           "/3V3_LDO",
           "/VH_PMOD",
           "GND",
@@ -460,6 +461,6 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "0.75"
+    "VERSION": "0.77"
   }
 }
