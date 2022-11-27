@@ -73,19 +73,7 @@ v0.71 finished prototype desing. Gerber sent to JLCPCB for manufacturing
 
 v0.72 updated pinout spreadsheet and Readme with testing notes and improvements to be done
 
-v0.75 Improvements from testing phase. See below
-
-v0.76 Double pmod 1&2 now compatible with pmod RGB module of MuseLabs (added 4 shared pins)
-
-v0.77 changes:
-
-* Terasic connector: add jumpers on 5V and 3V3 to disconnect power, so I can connect it to other Terasic powered connectors.
-* Replaced 3 pin jumper with solder jumper on 3V3 power selection
-* Added solder jumper to select joystick power supply (5V or 2V5 from LDO)
-
-
-
-#### v0.75 changes
+v0.75 Improvements from testing phase. 
 
 * Changed footprint DB15 VGA to fit connectors from Aliexpress (was needed to bend pins)
 
@@ -107,40 +95,42 @@ v0.77 changes:
 
 * Added PCB Hole for seeing Conf_done, Rx, Tx leds
 
-  
+v0.76 Double pmod 1&2 now compatible with pmod RGB module of MuseLabs (added 4 shared pins)
 
-#### v0.78 changes
+v0.77 Changes:
 
-* 
+* Terasic connector: add jumpers on 5V and 3V3 to disconnect power, so I can connect it to other Terasic powered connectors.
+* Replaced 3 pin jumper with solder jumper on 3V3 power selection
+* Added solder jumper to select joystick power supply (5V or 2V5 from LDO)
+
+v0.78 Changes:
+
+* PS2 protection usign 3V9 Zener diodes (3V7 to 4V1).
+
+* Added pulldown optional resistors for ps2 mouse
 
   
 
 ### TODO changes 
 
-* Protections
-  * For ps2 use 3V6 (or 4V) zeners.  BAT54 could be used also with 3V3 supplied by Deca
-  * Joy pull-up not working with the zener protections, gives 1 V so cores get crazy.
-  * Jumpers per activar els pull-down del ps2 per passar a mode USB
-  * PS2 mouse add pulldown footprints and R 180 Ohm, so I can have 1 ps2 keyb and 1 usb keyb
-  * BAT54S protection
-    * Put Resistors in front of BAT54, not after   -> test with keyboard
-    * Change joystick 2V5 protection  for voltage dividers ??
-    * DETO3_JOY_MUX is a 3V3 gpio. Add zenner 3v3 not 2v4
+* Joystick shifter level protections
+  * DETO3_JOY_MUX is a 3V3 gpio.
 
 * Rename repository
-  
+
 * Provide to manufacturer component information to solder the PCBs
 
   
-
-
 
 ### TODO improvements
 
 * Reduce lenght of board in VGA wing side
 * Modify footprint of USB3 for an economical one
+* PS2:  Jumpers to activate pull-down resistors to enable USB mode
 * If space is needed, make a common ps2 connector for keyb and mouse (ps2 splitter should be used). 
 * Jumper on joystick DB9 pin 5 to change power supply to pin 7 in order to allow other joysticks like the Amiga one to work. Comment from telegram: "El Jumper lo puedes poner para cambiar la alimentación entre pin 5 y 7. De esa forma te funcionara ok los dos y podrás conectar cosas como el ratón de amiga. De los joysticks clásicos, la mayoría son totalmente pasivos y los quickshot II utilizan la alimentación de 5v para el autofire."
+
+
 
 ### Component selection
 
