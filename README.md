@@ -114,7 +114,7 @@ v0.78 Changes:
 * Added pulldown optional resistors for ps2 mouse
 
 
-v0.80 Added Joystick shifter level protection with IC [TXS0108E](https://jlcpcb.com/partdetail/TexasInstruments-TXS0108EPWR/C17206) and jumper to select either DB9 or USB3 IO interface
+v0.80 Added Joystick shifter level protection with IC [TXS0108E](https://jlcpcb.com/partdetail/TexasInstruments-TXS0108EPWR/C17206) and jumper JP8 to select either DB9 or USB3 IO interface
 
 
 
