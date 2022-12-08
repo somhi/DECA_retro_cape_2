@@ -387,6 +387,8 @@
           "+3V3",
           "+5V",
           "/+JOY_PWR",
+          "/+JOY_PWR_DB9",
+          "/+JOY_PWR_USB3",
           "/3V3_LDO",
           "/VH_PMOD",
           "GND",
@@ -461,6 +463,6 @@
     ]
   ],
   "text_variables": {
-    "VERSION": "0.78"
+    "VERSION": "0.80"
   }
 }

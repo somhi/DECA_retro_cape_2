@@ -44,7 +44,7 @@
 
 Summary:
 
-* <u>For ps2 use 3V6 (or 4V) zeners.  </u>
+* <u>For ps2 use 3V6 (or 4V) zeners.</u> 
   * <u>BAT54 could be used with 3V3 supplied by Deca.</u> (put Resistors in front of BAT54, not after)
 
 * For joystick 

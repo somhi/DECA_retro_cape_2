@@ -1,6 +1,8 @@
 # DECA Retro Cape 2 (2 layer - MiSTer module SDRAM version)
 
-**STATUS** (07/04/22):  PCBs received. Started [testing](testing.md). **Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release**. See end of readme for changelog and improvements from v0.71
+STATUS (08/12/22):  Finalizing design of a new revision.  See end of readme for changelog improvements from v0.71.
+
+STATUS (07/04/22):  PCBs received. Started [testing](testing.md).  Do not use without modifying voltage protections. **Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release**.
 
 STATUS (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.
 
@@ -53,6 +55,8 @@ I want to give credits to Tom Verbeure from whom I've taken his [original design
 
 * JP7 solder jumper to select joystick power supply (5V or 2V5 from LDO)
 
+* JP8 jumper select either DB9 interface or USER IO (USB3)
+
   
 
 ### Changelog
@@ -87,9 +91,9 @@ v0.75 Improvements from testing phase.
 
 * Power header reduced to 1 row instead of 2
 
-* optimized some traces
+* Optimized some traces
 
-* added solder pad JP3 to enable/disable compatibility with Antonio Villena's MiSTer DB9 addons
+* Added solder pad JP3 to enable/disable compatibility with Antonio Villena's MiSTer DB9 addons
 
 * JP4 jumper to enable 5V at VGA pin 9 to make use of VGA to SCART cables for 15 kHz RGB video
 
@@ -100,7 +104,7 @@ v0.76 Double pmod 1&2 now compatible with pmod RGB module of MuseLabs (added 4 s
 v0.77 Changes:
 
 * Terasic connector: add jumpers on 5V and 3V3 to disconnect power, so I can connect it to other Terasic powered connectors.
-* Replaced 3 pin jumper with solder jumper on 3V3 power selection
+* Replaced 3 pin jumper JP2 with solder jumper on 3V3 power selection
 * Added solder jumper to select joystick power supply (5V or 2V5 from LDO)
 
 v0.78 Changes:
@@ -109,12 +113,12 @@ v0.78 Changes:
 
 * Added pulldown optional resistors for ps2 mouse
 
-  
+
+v0.80 Added Joystick shifter level protection with IC [TXS0108E](https://jlcpcb.com/partdetail/TexasInstruments-TXS0108EPWR/C17206) and jumper to select either DB9 or USB3 IO interface
+
+
 
 ### TODO changes 
-
-* Joystick shifter level protections
-  * DETO3_JOY_MUX is a 3V3 gpio.
 
 * Rename repository
 
