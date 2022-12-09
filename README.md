@@ -1,16 +1,26 @@
-# DECA Retro Cape 2 (2 layer - MiSTer module SDRAM version)
+# DECA Retro Cape 2
 
-STATUS (08/12/22):  Finalizing design of a new revision.  See end of readme for changelog improvements from v0.71.
+### (2 layer - MiSTer module SDRAM version)
 
-STATUS (07/04/22):  PCBs received. Started [testing](testing.md).  Do not use without modifying voltage protections. **Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release**.
+DECA Retro Cape 2 is an addon for the [DECA FPGA](https://github.com/DECAfpga/DECA_board) development kit from Arrow/Terasic. The addon is connected to the Beaglebone Black connectors and hence the name of Cape as addons in the Beaglebone world are known.
 
-STATUS (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.
-
-
+This cape adds IO interface to the DECA board with all is needed to implement retro computers in this beautiful FPGA. Main IO interfaces are DB15 for VGA, PS2 for keyboard and mouse, DB9 for joystick, MiSTer memory connector, MiSTer user port.
 
 Project has been developed with KiCAD 6.0. 
 
+### Status
+
+STATUS (08/12/22):  Finalizing design of a new revision.  See end of readme for changelog improvements from v0.71.
+
+STATUS (07/04/22):  PCBs received. Started [testing](testing.md).  Do not use without modifying voltage protections. Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release.
+
+STATUS (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.
+
+### Credits
+
 I want to give credits to Tom Verbeure from whom I've taken his [original design  files](https://github.com/tomverbeure/arrow_deca_retro_cape) and adapted to my own design. Not much have been left from his design, but the name "DECA Retro Cape" remains.  
+
+Thanks to rest of Hard Team DECA (C.Palmero & Rhoderik) and Telegram groups for the support received  during the development phase.
 
 ### **Schematic**
 
@@ -19,25 +29,25 @@ I want to give credits to Tom Verbeure from whom I've taken his [original design
 ### **Features**
 
 * VGA DAC 444
+  *  Jumper to make use of VGA to SCART cables for 15 kHz RGB video
+
 * Terasic 2x20 pin connector (for Mister SDRAM modules) + 3 pin for Dual SDRAM/SRAM 
 * PS2 keyboard & mouse connectors
-* Double Pmod (1/2) for peripherals (VGA Pmod, Hyperram, ...)
-* Pmod 3 (SPI + UART) host or peripheral 
+* Double Pmod (1/2) for peripherals (VGA Pmod, Hyperram, ...). 
+  * Added four central pins for compatibility with RGB module of MuseLabs
+
+* Pmod 3 (SPI + UART). Can act as Pmod host or peripheral 
 * DETO Pmod (6 pin) for general usage (3 multiplexed pins)
-* DB9 connector for joystick (Sega megadrive) (solder JP3 for A.Villena MiSTer DB9 addons)
-* USB3 User Port (for SNAC adapters SNES, Atari, ...)
+* Game controller port (selection jumper to enable one or the other)
+  * DB9 connector for joystick (Sega megadrive) (solder JP3 for A.Villena MiSTer DB9 addons)
+  * USB3 User Port (for SNAC adapters SNES, Atari, ...)
+
 * UART (Rx/Tx) header
-* Power supply header (5V, 3V3, 3V3 LDO, 2V5 LDO, 1V8 analog)
+* Power supply headers (5V, 3V3, 3V3 LDO, 2V5 LDO, 1V8 analog)
 
-### 3D model
+### **Important Usage notes**
 
-![DECA_retro_cape_1](DECA_retro_cape_1.png)
-
-
-
-![DECA_retro_cape_2](DECA_retro_cape_2.png)
-
-
+* Do not connect/disconnect interfaces while the board is powered.
 
 ### **Jumper Selection**
 
@@ -57,7 +67,16 @@ I want to give credits to Tom Verbeure from whom I've taken his [original design
 
 * JP8 jumper select either DB9 interface or USER IO (USB3)
 
-  
+
+### 3D model
+
+![DECA_retro_cape_1](DECA_retro_cape_1.png)
+
+
+
+![DECA_retro_cape_2](DECA_retro_cape_2.png)
+
+
 
 ### Changelog
 
@@ -113,18 +132,18 @@ v0.78 Changes:
 
 * Added pulldown optional resistors for ps2 mouse
 
-
 v0.80 Added Joystick shifter level protection with IC [TXS0108E](https://jlcpcb.com/partdetail/TexasInstruments-TXS0108EPWR/C17206) and jumper JP8 to select either DB9 or USB3 IO interface
+
+v0.81 Improved Readme. Added readme notice in silkscreen. Removed v0.78 pulldown optional resistors for ps2 mouse (one of the pins has a physical pull-up resistor in fpga, so wouldn't work).
 
 
 
 ### TODO changes 
 
-* Rename repository
-
 * Provide to manufacturer component information to solder the PCBs
 
   
+
 
 ### TODO improvements
 
