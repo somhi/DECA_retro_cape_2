@@ -2608,6 +2608,7 @@
     )
   )
 
+
   (junction (at 173.99 191.135) (diameter 0) (color 0 0 0 0)
     (uuid 05cb91d4-ba75-4b99-9f3f-8d35199c6714)
   )
@@ -7797,10 +7798,13 @@
     (property "Value" "USB3_A" (id 1) (at 386.08 148.5899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_USB:USB3_A_Molex_48393-001" (id 2) (at 370.84 144.145 0)
+    (property "Footprint" "varis:USB-3.0-TH_C69073" (id 2) (at 370.84 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 370.84 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "old_FP" "Connector_USB:USB3_A_Molex_48393-001" (id 4) (at 374.65 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09fe5415-94b9-45f4-9af1-87813b56ef87))
@@ -8717,7 +8721,7 @@
       (reference "J20") (unit 1) (value "PMOD3") (footprint "addon-edge-rpi-i2s-pmod:PMOD_Female_Horizontal_2")
     )
     (path "/a4bb155e-acd9-4c2b-a7b6-e0bcb49064df"
-      (reference "J21") (unit 1) (value "USB3_A") (footprint "Connector_USB:USB3_A_Molex_48393-001")
+      (reference "J21") (unit 1) (value "USB3_A") (footprint "varis:USB-3.0-TH_C69073")
     )
     (path "/d778ffcf-2ebe-41a1-95dc-d47027bbc417"
       (reference "J22") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")

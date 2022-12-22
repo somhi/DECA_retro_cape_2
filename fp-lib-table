@@ -6,4 +6,5 @@
   (lib (name "ps2")(type "KiCad")(uri "${KIPRJMOD}/libraries/ps2")(options "")(descr ""))
   (lib (name "addon-edge-rpi-i2s-pmod")(type "KiCad")(uri "${KIPRJMOD}/libraries/addon-edge-rpi-i2s-pmod.pretty")(options "")(descr ""))
   (lib (name "vga")(type "KiCad")(uri "${KIPRJMOD}/libraries/vga")(options "")(descr ""))
+  (lib (name "varis")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
 )

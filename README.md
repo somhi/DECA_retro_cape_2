@@ -140,6 +140,8 @@ v0.82 generated BOM before installing jlcpcb-tools plugin
 
 v0.83 Added jlcpcb parts with jlcpcb tools plugin 
 
+v0.84 updated USB3 footprint
+
 
 
 ### TODO changes 
