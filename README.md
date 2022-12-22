@@ -136,6 +136,10 @@ v0.80 Added Joystick shifter level protection with IC [TXS0108E](https://jlcpcb.
 
 v0.81 Improved Readme. Added readme notice in silkscreen. Removed v0.78 pulldown optional resistors for ps2 mouse (one of the pins has a physical pull-up resistor in fpga, so wouldn't work).
 
+v0.82 generated BOM before installing jlcpcb-tools plugin
+
+v0.83 Added jlcpcb parts with jlcpcb tools plugin 
+
 
 
 ### TODO changes 
