@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/jordi/Documents/Coding/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch</source>
-    <date>Fri 16 Dec 2022 23:26:32 CET</date>
+    <source>/home/jordi/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch</source>
+    <date>Sat 24 Dec 2022 20:00:04 CET</date>
     <tool>Eeschema 6.0.9-8da3e8f707~117~ubuntu20.04.1</tool>
-    <textvar name="VERSION">0.82</textvar>
+    <textvar name="VERSION">0.86</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>DECA RETRO CAPE 2</title>
         <company>Hard Team Deca</company>
-        <rev>0.82</rev>
+        <rev>0.86</rev>
         <date>2022-03-10</date>
         <source>arrow_deca_retro_cape.kicad_sch</source>
         <comment number="1" value=""/>
@@ -28,7 +28,11 @@
     <comp ref="C18">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C28323</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C28323"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -37,25 +41,34 @@
     <comp ref="C19">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061573ffc</tstamps>
     </comp>
     <comp ref="C20">
-      <value>0.1uF</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dbc6bf33-0237-48dc-ae27-ad54518f632a</tstamps>
     </comp>
     <comp ref="C21">
-      <value>10uF</value>
+      <value>22uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -65,57 +78,41 @@
       <value>BZT52C3V9</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf</datasheet>
-      <fields>
-        <field name="Vz">3V9</field>
-      </fields>
-      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123"/>
-      <property name="Vz" value="3V9"/>
+      <libsource lib="" part="BZT52Bxx_1" description="500mW Zener Diode, SOD-123F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5376ec5a-7d17-47bc-b924-9f304244f250</tstamps>
+      <tstamps>500a9cbd-553a-45e2-8734-f9a23104f4c4</tstamps>
     </comp>
     <comp ref="D2">
       <value>BZT52C3V9</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf</datasheet>
-      <fields>
-        <field name="Vz">3V9</field>
-      </fields>
-      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123"/>
-      <property name="Vz" value="3V9"/>
+      <libsource lib="" part="BZT52Bxx_1" description="500mW Zener Diode, SOD-123F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6ebf8754-e538-4103-a420-40dce6f9e622</tstamps>
+      <tstamps>24f5945f-fbf7-409b-be7e-eb00d7ebee55</tstamps>
     </comp>
     <comp ref="D3">
       <value>BZT52C3V9</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf</datasheet>
-      <fields>
-        <field name="Vz">3V9</field>
-      </fields>
-      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123"/>
-      <property name="Vz" value="3V9"/>
+      <libsource lib="" part="BZT52Bxx_1" description="500mW Zener Diode, SOD-123F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>17d0e839-7ca8-4480-bb6d-11031949b9a5</tstamps>
+      <tstamps>049ed208-7152-4952-89ca-98b1f5ff09dc</tstamps>
     </comp>
     <comp ref="D4">
       <value>BZT52C3V9</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf</datasheet>
-      <fields>
-        <field name="Vz">3V9</field>
-      </fields>
-      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123"/>
-      <property name="Vz" value="3V9"/>
+      <libsource lib="" part="BZT52Bxx_1" description="500mW Zener Diode, SOD-123F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8644f449-fd85-4e06-bd4a-6e834f5d08c4</tstamps>
+      <tstamps>6c3bd82b-b1bc-40ef-a022-69c24793d667</tstamps>
     </comp>
     <comp ref="J1">
       <value>DB15_Female_HighDensity_MountingHoles</value>
@@ -292,8 +289,12 @@
     </comp>
     <comp ref="J21">
       <value>USB3_A</value>
-      <footprint>Connector_USB:USB3_A_Molex_48393-001</footprint>
+      <footprint>varis:USB-3.0-TH_C69073</footprint>
+      <fields>
+        <field name="old_FP">Connector_USB:USB3_A_Molex_48393-001</field>
+      </fields>
       <libsource lib="Connector" part="USB3_A" description="USB 3.0 A connector"/>
+      <property name="old_FP" value="Connector_USB:USB3_A_Molex_48393-001"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -449,6 +450,15 @@
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>140fbce4-7b92-4ad0-b353-de2a0326111d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd1d7215-35c9-4a81-9822-c58076acf471</tstamps>
     </comp>
     <comp ref="R9">
       <value>510</value>
@@ -829,10 +839,16 @@
       <tstamps>00000000-0000-0000-0000-000060fd8327</tstamps>
     </comp>
     <comp ref="U5">
-      <value>LM1117-2.5</value>
+      <value>AMS1117-2.5</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C12087</field>
+        <field name="Old">LM1117-2.5</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="LCSC" value="C12087"/>
+      <property name="Old" value="LM1117-2.5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -840,6 +856,23 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="BZT52Bxx_1">
+      <description>500mW Zener Diode, SOD-123F</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</docs>
+      <footprints>
+        <fp>D?SOD?123F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZT52Bxx_1</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="DB15_Female_HighDensity_MountingHoles">
       <description>15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole</description>
       <docs> ~</docs>
@@ -1156,23 +1189,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="BZT52Bxx">
-      <description>500mW Zener Diode, SOD-123</description>
-      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</docs>
-      <footprints>
-        <fp>D?SOD?123*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">BZT52Bxx</field>
-        <field name="Footprint">Diode_SMD:D_SOD-123</field>
-        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Jumper" part="SolderJumper_2_Open">
       <description>Solder Jumper, 2-pole, open</description>
       <docs>~</docs>
@@ -1285,9 +1301,6 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
-    <library logical="Diode">
-      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
-    </library>
     <library logical="Jumper">
       <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
     </library>
@@ -1298,7 +1311,7 @@
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="zxuno-eagle-import">
-      <uri>/home/jordi/Documents/Coding/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/libraries/zxuno-eagle-import.kicad_sym</uri>
+      <uri>/home/jordi/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/libraries/zxuno-eagle-import.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1307,9 +1320,9 @@
       <node ref="J9" pin="32" pinfunction="Pin_32" pintype="passive"/>
     </net>
     <net code="2" name="+2V5">
-      <node ref="C21" pin="1" pintype="passive"/>
       <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="JP7" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="OE" pintype="input"/>
       <node ref="U1" pin="2" pinfunction="VCCA" pintype="power_in"/>
       <node ref="U5" pin="2" pinfunction="VO" pintype="power_out"/>
@@ -1835,108 +1848,112 @@
       <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J9" pin="34" pinfunction="Pin_34" pintype="passive"/>
     </net>
-    <net code="103" name="Net-(J1-Pad9)">
+    <net code="103" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(J1-Pad9)">
       <node ref="J1" pin="9" pintype="passive"/>
       <node ref="JP4" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="104" name="Net-(J5-Pad1)">
+    <net code="105" name="Net-(J5-Pad1)">
       <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="105" name="Net-(J5-Pad5)">
+    <net code="106" name="Net-(J5-Pad5)">
       <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="106" name="Net-(J6-Pad11)">
+    <net code="107" name="Net-(J6-Pad11)">
       <node ref="J6" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="JP5" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="107" name="Net-(J6-Pad29)">
+    <net code="108" name="Net-(J6-Pad29)">
       <node ref="J6" pin="29" pinfunction="Pin_29" pintype="passive"/>
       <node ref="JP6" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="108" name="Net-(J19-Pad1)">
+    <net code="109" name="Net-(J19-Pad1)">
       <node ref="J19" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="109" name="Net-(J19-Pad5)">
+    <net code="110" name="Net-(J19-Pad5)">
       <node ref="J19" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="110" name="Net-(JP3-Pad1)">
+    <net code="111" name="Net-(JP3-Pad1)">
       <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
     </net>
-    <net code="111" name="Net-(R9-Pad1)">
+    <net code="112" name="Net-(R9-Pad1)">
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="B2" pintype="bidirectional"/>
     </net>
-    <net code="112" name="Net-(R10-Pad1)">
+    <net code="113" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="B3" pintype="bidirectional"/>
     </net>
-    <net code="113" name="Net-(R11-Pad1)">
+    <net code="114" name="Net-(R11-Pad1)">
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="B4" pintype="bidirectional"/>
     </net>
-    <net code="114" name="Net-(R12-Pad1)">
+    <net code="115" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="B5" pintype="bidirectional"/>
     </net>
-    <net code="115" name="Net-(R13-Pad1)">
+    <net code="116" name="Net-(R13-Pad1)">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="B6" pintype="bidirectional"/>
     </net>
-    <net code="116" name="Net-(R14-Pad1)">
+    <net code="117" name="Net-(R14-Pad1)">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="B7" pintype="bidirectional"/>
     </net>
-    <net code="117" name="Net-(R15-Pad1)">
+    <net code="118" name="Net-(R15-Pad1)">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="B8" pintype="bidirectional"/>
     </net>
-    <net code="118" name="Net-(R19-Pad1)">
+    <net code="119" name="Net-(R19-Pad1)">
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="119" name="Net-(R25-Pad1)">
+    <net code="120" name="Net-(R25-Pad1)">
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="120" name="Net-(R31-Pad1)">
+    <net code="121" name="Net-(R31-Pad1)">
       <node ref="R31" pin="1" pintype="passive"/>
       <node ref="R32" pin="1" pintype="passive"/>
     </net>
-    <net code="121" name="unconnected-(J1-Pad4)">
+    <net code="122" name="unconnected-(J1-Pad4)">
       <node ref="J1" pin="4" pintype="passive+no_connect"/>
     </net>
-    <net code="122" name="unconnected-(J1-Pad11)">
+    <net code="123" name="unconnected-(J1-Pad11)">
       <node ref="J1" pin="11" pintype="passive+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(J1-Pad12)">
+    <net code="124" name="unconnected-(J1-Pad12)">
       <node ref="J1" pin="12" pintype="passive+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(J1-Pad15)">
+    <net code="125" name="unconnected-(J1-Pad15)">
       <node ref="J1" pin="15" pintype="passive+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(J5-Pad2)">
+    <net code="126" name="unconnected-(J5-Pad2)">
       <node ref="J5" pin="2" pinfunction="2" pintype="passive+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(J5-Pad6)">
+    <net code="127" name="unconnected-(J5-Pad6)">
       <node ref="J5" pin="6" pinfunction="6" pintype="passive+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(J19-Pad2)">
+    <net code="128" name="unconnected-(J19-Pad2)">
       <node ref="J19" pin="2" pinfunction="2" pintype="passive+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(J19-Pad6)">
+    <net code="129" name="unconnected-(J19-Pad6)">
       <node ref="J19" pin="6" pinfunction="6" pintype="passive+no_connect"/>
     </net>
-    <net code="129" name="unconnected-(U1-Pad1)">
+    <net code="130" name="unconnected-(U1-Pad1)">
       <node ref="U1" pin="1" pinfunction="A1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(U1-Pad20)">
+    <net code="131" name="unconnected-(U1-Pad20)">
       <node ref="U1" pin="20" pinfunction="B1" pintype="bidirectional+no_connect"/>
     </net>
   </nets>

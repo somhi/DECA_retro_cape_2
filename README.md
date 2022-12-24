@@ -144,6 +144,8 @@ v0.84 updated USB3 footprint
 
 v0.85 updated references folder. choose zener 3V9 reference 
 
+v0.86 added R7 1Ω for increasing ESR on 2V5 LDO output with a ceramic capacitor instead of tantalum. updated BOM and nearly finished jlcpcb parts selecction
+
 ### TODO changes 
 
 * Provide to manufacturer component information to solder the PCBs
