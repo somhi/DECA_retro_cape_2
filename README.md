@@ -142,7 +142,7 @@ v0.83 Added jlcpcb parts with jlcpcb tools plugin
 
 v0.84 updated USB3 footprint
 
-
+v0.85 updated references folder. choose zener 3V9 reference 
 
 ### TODO changes 
 
@@ -160,12 +160,6 @@ v0.84 updated USB3 footprint
 * Jumper on joystick DB9 pin 5 to change power supply to pin 7 in order to allow other joysticks like the Amiga one to work. Comment from telegram: "El Jumper lo puedes poner para cambiar la alimentación entre pin 5 y 7. De esa forma te funcionara ok los dos y podrás conectar cosas como el ratón de amiga. De los joysticks clásicos, la mayoría son totalmente pasivos y los quickshot II utilizan la alimentación de 5v para el autofire."
 
 
-
-### Component selection
-
-* U5 LDO 2V5 footprint do not correspond to LDO_2V5_NCV4274AST25T3G component
-
-  
 
 ### Testing
 

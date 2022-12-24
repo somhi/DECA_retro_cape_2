@@ -14,8 +14,7 @@
 
 * Posant R pullup (i sense BATs) tal com esquema Tom Verbeure també obtinc 5V als pins FPGA. Provat amb 4k7 i 10k.    També he provat de simular impedància FPGA posant una R de 1 MOhm entre pin FPGA i GND, amb resultats similars.
 
-
-​		**25/04/22**  Test esquema tipus Tom Verbeure retrocape, amb Deca connectada a la cape
+**25/04/22**  Test esquema tipus Tom Verbeure retrocape, amb Deca connectada a la cape
 
 ![tom-verbeure-retrocape_pullups](datasheets-references/Ref_ps2/tom-verbeure-retrocape_pullups.jpg)
 
@@ -31,7 +30,7 @@
 
   
 
-**Tests 12/05/22**
+**12/05/22**
 
 * <u>Zener 3+0.7 V gives at FPGA 2.4V for my mouse and 2.8V for my keyboard, and both are working.</u>
   * zener 3V+0.7V,   R470,  mouse ps2 -> fpga pins 2.4V mouse, 2.7V keyboard
@@ -63,3 +62,15 @@ Summary:
 * Tornat a provar BATs amb R 1k entre fpga i R.  Mateixos efectes.
 * Provat de posar un diode a la part de 5V. idem
 * Provat de posar un diode a la sortida de 3V3 i alimentar el circuit de 2V5 (sense ldo). idem resultat puja tensió a 4.8V
+
+**24/12/22**
+
+* <u>Zener 3.9 V gives at FPGA 2.4V for my mouse and 2.8V for my keyboard, and both are working.</u>
+
+  * zener 3.9V,   R470,  mouse ps2 -> fpga pins 2.75V mouse, 3.13V keyboard
+
+  * zener 3.9V,   R510,  mouse ps2 -> fpga pins 2.8V mouse, 3.18V keyboard  (not same zener)
+
+    
+
+    

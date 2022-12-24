@@ -87,7 +87,7 @@
     )
   )
 
-  (property "VERSION" "0.84")
+  (property "VERSION" "0.85")
 
   (net 0 "")
   (net 1 "GND")
