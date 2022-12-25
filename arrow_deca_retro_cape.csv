@@ -1,122 +1,122 @@
-Source:,/home/jordi/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch,,,,,,,,,
-Date:,Sat 24 Dec 2022 20:00:04 CET,,,,,,,,,
-Tool:,Eeschema 6.0.9-8da3e8f707~117~ubuntu20.04.1,,,,,,,,,
-Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,,,,
-Component Count:,75,,,,,,,,,
-,,,,,,,,,,
-Individual Components:,,,,,,,,,,
-,,,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Field4,LCSC,Old,old_FP
-,,C18,1uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,C28323,,
-,,C19,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,C15850,,
-,,C20,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,C49678,,
-,,C21,22uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,,,
-,,D1,BZT52C3V9,:BZT52Bxx_1,Diode_SMD:D_SOD-123,https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf,,,,
-,,D2,BZT52C3V9,:BZT52Bxx_1,Diode_SMD:D_SOD-123,https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf,,,,
-,,D3,BZT52C3V9,:BZT52Bxx_1,Diode_SMD:D_SOD-123,https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf,,,,
-,,D4,BZT52C3V9,:BZT52Bxx_1,Diode_SMD:D_SOD-123,https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf,,,,
-,,J1,DB15_Female_HighDensity_MountingHoles,Connector:DB15_Female_HighDensity_MountingHoles,Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm, ~,,,,
-,,J2,Conn_02x01,Connector_Generic:Conn_02x01,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,,,
-,,J3,Conn_02x01,Connector_Generic:Conn_02x01,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,,,
-,,J4,DB9_Male_MountingHoles,Connector:DB9_Male_MountingHoles,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm, ~,,,,
-,,J5,DINC_MIN_TM_6_1,zxuno-eagle-import:DINC_MIN_TM_6_1,ps2:DINC_MIN_TM_6_1PRIMARY,,,,,
-,,J6,Conn_02x20_Odd_Even,Connector_Generic:Conn_02x20_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,~,,,,
-,,J7,Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,~,,,,
-,,J8,P8_Male,Connector_Generic:Conn_02x23_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical,~,,,,
-,,J9,P9_Male,Connector_Generic:Conn_02x23_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical,~,,,,
-,,J10,Conn_02x06_Odd_Even,Connector_Generic:Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,~,,,,
-,,J11,PMOD1,Connector_Generic:Conn_02x06_Top_Bottom,addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2,~,,,,
-,,J12,PMOD2,Connector_Generic:Conn_02x06_Top_Bottom,addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2,~,,,,
-,,J14,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,,,
-,,J15,Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,,,,
-,,J16,Conn_01x06,Connector_Generic:Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,~,,,,
-,,J17,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,,,
-,,J18,Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,,,,
-,,J19,DINC_MIN_TM_6_1,zxuno-eagle-import:DINC_MIN_TM_6_1,ps2:DINC_MIN_TM_6_1PRIMARY,,,,,
-,,J20,PMOD3,Connector_Generic:Conn_02x06_Top_Bottom,addon-edge-rpi-i2s-pmod:PMOD_Female_Horizontal_2,~,,,,
-,,J21,USB3_A,Connector:USB3_A,varis:USB-3.0-TH_C69073,~,,,,Connector_USB:USB3_A_Molex_48393-001
-,,J22,Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,,,,
-,,JP1,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,,,
-,,JP2,SolderJumper_3_Open,Jumper:SolderJumper_3_Open,Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,~,,,,
-,,JP3,SolderJumper_2_Open,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~,,,,
-,,JP4,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,,,
-,,JP5,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,,,
-,,JP6,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,,,
-,,JP7,SolderJumper_3_Open,Jumper:SolderJumper_3_Open,Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,~,,,,
-,,JP8,Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,,,,
-,,R1,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R2,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R3,DNI 4k7,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-,,R4,DNI 4k7,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-,,R5,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R6,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R7,1,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-,,R9,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R10,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R11,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R12,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R13,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R14,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R15,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R16,510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R17,180,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-,,R18,180,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-,,R19,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R20,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R21,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R22,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R23,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R24,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R25,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R26,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R27,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R28,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R29,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R30,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R31,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R32,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R33,2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R34,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R35,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,R36,1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-,,U1,TXS0108EPW,Logic_LevelTranslator:TXS0108EPW,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,www.ti.com/lit/ds/symlink/txs0108e.pdf,,,,
-,,U4,LM1117-3.3,Regulator_Linear:LM1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.ti.com/lit/ds/symlink/lm1117.pdf,,,,
-,,U5,AMS1117-2.5,Regulator_Linear:LM1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.ti.com/lit/ds/symlink/lm1117.pdf,,C12087,LM1117-2.5,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-Collated Components:,,,,,,,,,,
-,,,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Field4,LCSC,Old,old_FP
-1,1,C18,1uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,C28323,,
-2,2,"C19, C20",10uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,C15850,,
-3,1,C21,22uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,,,
-4,4,"D1, D2, D3, D4",BZT52C3V9,:BZT52Bxx_1,Diode_SMD:D_SOD-123,https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf,,,,
-5,1,J1,DB15_Female_HighDensity_MountingHoles,Connector:DB15_Female_HighDensity_MountingHoles,Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm, ~,,,,
-6,2,"J2, J3",Conn_02x01,Connector_Generic:Conn_02x01,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,,,
-7,1,J4,DB9_Male_MountingHoles,Connector:DB9_Male_MountingHoles,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm, ~,,,,
-8,2,"J5, J19",DINC_MIN_TM_6_1,zxuno-eagle-import:DINC_MIN_TM_6_1,ps2:DINC_MIN_TM_6_1PRIMARY,,,,,
-9,1,J6,Conn_02x20_Odd_Even,Connector_Generic:Conn_02x20_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,~,,,,
-10,1,J7,Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,~,,,,
-11,1,J8,P8_Male,Connector_Generic:Conn_02x23_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical,~,,,,
-12,1,J9,P9_Male,Connector_Generic:Conn_02x23_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical,~,,,,
-13,1,J10,Conn_02x06_Odd_Even,Connector_Generic:Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,~,,,,
-14,1,J11,PMOD1,Connector_Generic:Conn_02x06_Top_Bottom,addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2,~,,,,
-15,1,J12,PMOD2,Connector_Generic:Conn_02x06_Top_Bottom,addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2,~,,,,
-16,2,"J14, J17",Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,,,,
-17,4,"J15, J18, J22, JP8",Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,,,,
-18,1,J16,Conn_01x06,Connector_Generic:Conn_01x06,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,~,,,,
-19,1,J20,PMOD3,Connector_Generic:Conn_02x06_Top_Bottom,addon-edge-rpi-i2s-pmod:PMOD_Female_Horizontal_2,~,,,,
-20,1,J21,USB3_A,Connector:USB3_A,varis:USB-3.0-TH_C69073,~,,,,Connector_USB:USB3_A_Molex_48393-001
-21,4,"JP1, JP4, JP5, JP6",Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,,,
-22,2,"JP2, JP7",SolderJumper_3_Open,Jumper:SolderJumper_3_Open,Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,~,,,,
-23,1,JP3,SolderJumper_2_Open,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~,,,,
-24,12,"R1, R2, R5, R6, R9, R10, R11, R12, R13, R14, R15, R16",510,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-25,2,"R3, R4",DNI 4k7,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-26,1,R7,1,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-27,2,"R17, R18",180,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,,,
-28,9,"R19, R20, R21, R25, R26, R27, R31, R32, R33",2k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-29,9,"R22, R23, R24, R28, R29, R30, R34, R35, R36",1k,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,Antonio entre 120 i 180 Ohm (47 també),,,
-30,1,U1,TXS0108EPW,Logic_LevelTranslator:TXS0108EPW,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,www.ti.com/lit/ds/symlink/txs0108e.pdf,,,,
-31,1,U4,LM1117-3.3,Regulator_Linear:LM1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.ti.com/lit/ds/symlink/lm1117.pdf,,,,
-32,1,U5,AMS1117-2.5,Regulator_Linear:LM1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.ti.com/lit/ds/symlink/lm1117.pdf,,C12087,LM1117-2.5,
+"Source:","/home/jordi/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch"
+"Date:","Sat 24 Dec 2022 20:27:17 CET"
+"Tool:","Eeschema 6.0.9-8da3e8f707~117~ubuntu20.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","75"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4","Old","old_FP"
+"","","C18","1uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","",""
+"","","C19","10uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","",""
+"","","C20","10uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","",""
+"","","C21","22uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","",""
+"","","D1","BZT52C3V9",":BZT52Bxx_1","Diode_SMD:D_SOD-123","https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf","","",""
+"","","D2","BZT52C3V9",":BZT52Bxx_1","Diode_SMD:D_SOD-123","https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf","","",""
+"","","D3","BZT52C3V9",":BZT52Bxx_1","Diode_SMD:D_SOD-123","https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf","","",""
+"","","D4","BZT52C3V9",":BZT52Bxx_1","Diode_SMD:D_SOD-123","https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf","","",""
+"","","J1","DB15_Female_HighDensity_MountingHoles","Connector:DB15_Female_HighDensity_MountingHoles","Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"," ~","","",""
+"","","J2","Conn_02x01","Connector_Generic:Conn_02x01","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","","",""
+"","","J3","Conn_02x01","Connector_Generic:Conn_02x01","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","","",""
+"","","J4","DB9_Male_MountingHoles","Connector:DB9_Male_MountingHoles","Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm"," ~","","",""
+"","","J5","DINC_MIN_TM_6_1","zxuno-eagle-import:DINC_MIN_TM_6_1","ps2:DINC_MIN_TM_6_1PRIMARY","","","",""
+"","","J6","Conn_02x20_Odd_Even","Connector_Generic:Conn_02x20_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical","~","","",""
+"","","J7","Conn_01x03","Connector_Generic:Conn_01x03","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~","","",""
+"","","J8","P8_Male","Connector_Generic:Conn_02x23_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical","~","","",""
+"","","J9","P9_Male","Connector_Generic:Conn_02x23_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical","~","","",""
+"","","J10","Conn_02x06_Odd_Even","Connector_Generic:Conn_01x06","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","",""
+"","","J11","PMOD1","Connector_Generic:Conn_02x06_Top_Bottom","addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2","~","","",""
+"","","J12","PMOD2","Connector_Generic:Conn_02x06_Top_Bottom","addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2","~","","",""
+"","","J14","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","","",""
+"","","J15","Conn_01x03","Connector_Generic:Conn_01x03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","","",""
+"","","J16","Conn_01x06","Connector_Generic:Conn_01x06","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","",""
+"","","J17","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","","",""
+"","","J18","Conn_01x03","Connector_Generic:Conn_01x03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","","",""
+"","","J19","DINC_MIN_TM_6_1","zxuno-eagle-import:DINC_MIN_TM_6_1","ps2:DINC_MIN_TM_6_1PRIMARY","","","",""
+"","","J20","PMOD3","Connector_Generic:Conn_02x06_Top_Bottom","addon-edge-rpi-i2s-pmod:PMOD_Female_Horizontal_2","~","","",""
+"","","J21","USB3_A","Connector:USB3_A","varis:USB-3.0-TH_C69073","~","","","Connector_USB:USB3_A_Molex_48393-001"
+"","","J22","Conn_01x03","Connector_Generic:Conn_01x03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","","",""
+"","","JP1","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","","",""
+"","","JP2","SolderJumper_3_Open","Jumper:SolderJumper_3_Open","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm","~","","",""
+"","","JP3","SolderJumper_2_Open","Jumper:SolderJumper_2_Open","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","~","","",""
+"","","JP4","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","","",""
+"","","JP5","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","","",""
+"","","JP6","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","","",""
+"","","JP7","SolderJumper_3_Open","Jumper:SolderJumper_3_Open","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm","~","","",""
+"","","JP8","Conn_01x03","Connector_Generic:Conn_01x03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","","",""
+"","","R1","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R2","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R3","DNI 4k7","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"","","R4","DNI 4k7","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"","","R5","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R6","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R7","1","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"","","R9","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R10","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R11","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R12","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R13","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R14","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R15","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R16","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R17","180","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"","","R18","180","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"","","R19","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R20","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R21","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R22","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R23","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R24","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R25","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R26","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R27","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R28","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R29","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R30","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R31","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R32","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R33","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R34","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R35","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","R36","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"","","U1","TXS0108EPW","Logic_LevelTranslator:TXS0108EPW","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","www.ti.com/lit/ds/symlink/txs0108e.pdf","","",""
+"","","U4","LM1117-3.3","Regulator_Linear:LM1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.ti.com/lit/ds/symlink/lm1117.pdf","","",""
+"","","U5","AMS1117-2.5","Regulator_Linear:LM1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.ti.com/lit/ds/symlink/lm1117.pdf","","LM1117-2.5",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4","Old","old_FP"
+"1","1","C18","1uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","",""
+"2","2","C19, C20","10uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","",""
+"3","1","C21","22uF","Device:C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","","",""
+"4","4","D1, D2, D3, D4","BZT52C3V9",":BZT52Bxx_1","Diode_SMD:D_SOD-123","https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf","","",""
+"5","1","J1","DB15_Female_HighDensity_MountingHoles","Connector:DB15_Female_HighDensity_MountingHoles","Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"," ~","","",""
+"6","2","J2, J3","Conn_02x01","Connector_Generic:Conn_02x01","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","","",""
+"7","1","J4","DB9_Male_MountingHoles","Connector:DB9_Male_MountingHoles","Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm"," ~","","",""
+"8","2","J5, J19","DINC_MIN_TM_6_1","zxuno-eagle-import:DINC_MIN_TM_6_1","ps2:DINC_MIN_TM_6_1PRIMARY","","","",""
+"9","1","J6","Conn_02x20_Odd_Even","Connector_Generic:Conn_02x20_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical","~","","",""
+"10","1","J7","Conn_01x03","Connector_Generic:Conn_01x03","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~","","",""
+"11","1","J8","P8_Male","Connector_Generic:Conn_02x23_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical","~","","",""
+"12","1","J9","P9_Male","Connector_Generic:Conn_02x23_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical","~","","",""
+"13","1","J10","Conn_02x06_Odd_Even","Connector_Generic:Conn_01x06","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","",""
+"14","1","J11","PMOD1","Connector_Generic:Conn_02x06_Top_Bottom","addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2","~","","",""
+"15","1","J12","PMOD2","Connector_Generic:Conn_02x06_Top_Bottom","addon-edge-rpi-i2s-pmod:Pmod_2x06_P2.54mm_Vertical_2","~","","",""
+"16","2","J14, J17","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","","",""
+"17","4","J15, J18, J22, JP8","Conn_01x03","Connector_Generic:Conn_01x03","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","","",""
+"18","1","J16","Conn_01x06","Connector_Generic:Conn_01x06","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","",""
+"19","1","J20","PMOD3","Connector_Generic:Conn_02x06_Top_Bottom","addon-edge-rpi-i2s-pmod:PMOD_Female_Horizontal_2","~","","",""
+"20","1","J21","USB3_A","Connector:USB3_A","varis:USB-3.0-TH_C69073","~","","","Connector_USB:USB3_A_Molex_48393-001"
+"21","4","JP1, JP4, JP5, JP6","Conn_01x02","Connector_Generic:Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","","",""
+"22","2","JP2, JP7","SolderJumper_3_Open","Jumper:SolderJumper_3_Open","Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm","~","","",""
+"23","1","JP3","SolderJumper_2_Open","Jumper:SolderJumper_2_Open","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","~","","",""
+"24","12","R1, R2, R5, R6, R9, R10, R11, R12, R13, R14, R15, R16","510","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"25","2","R3, R4","DNI 4k7","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"26","1","R7","1","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"27","2","R17, R18","180","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","",""
+"28","9","R19, R20, R21, R25, R26, R27, R31, R32, R33","2k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"29","9","R22, R23, R24, R28, R29, R30, R34, R35, R36","1k","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","Antonio entre 120 i 180 Ohm (47 també)","",""
+"30","1","U1","TXS0108EPW","Logic_LevelTranslator:TXS0108EPW","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","www.ti.com/lit/ds/symlink/txs0108e.pdf","","",""
+"31","1","U4","LM1117-3.3","Regulator_Linear:LM1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.ti.com/lit/ds/symlink/lm1117.pdf","","",""
+"32","1","U5","AMS1117-2.5","Regulator_Linear:LM1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.ti.com/lit/ds/symlink/lm1117.pdf","","LM1117-2.5",""

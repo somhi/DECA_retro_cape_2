@@ -48,6 +48,10 @@ Thanks to rest of Hard Team DECA (C.Palmero & Rhoderik) and Telegram groups for 
 ### **Important Usage notes**
 
 * Do not connect/disconnect interfaces while the board is powered.
+* Prior to first power on it is required to solder jumper JP2 pins 3V3 and V 
+* Prior to first power on it is required to solder jumper JP7 pin 5V and central pin 
+* To use MiSTer memory modules place jumpers JP5 and JP6
+* Place jumper JP8 on desired interface (DB9 or USB3) for joystick usage. For USB3, default position for JP9 jumper is I/O.
 
 ### **Jumper Selection**
 
@@ -66,6 +70,8 @@ Thanks to rest of Hard Team DECA (C.Palmero & Rhoderik) and Telegram groups for 
 * JP7 solder jumper to select joystick power supply (5V or 2V5 from LDO)
 
 * JP8 jumper select either DB9 interface or USER IO (USB3)
+
+* JP9 jumper select USER IO pin 9 function (signal I/O or 3V3 power)
 
 
 ### 3D model
@@ -144,7 +150,9 @@ v0.84 updated USB3 footprint
 
 v0.85 updated references folder. choose zener 3V9 reference 
 
-v0.86 added R7 1Ω for increasing ESR on 2V5 LDO output with a ceramic capacitor instead of tantalum. updated BOM and nearly finished jlcpcb parts selecction
+v0.86 updated datasheets, added R7 1Ω for increasing ESR on 2V5 LDO output with a ceramic capacitor instead of tantalum, updated BOM and nearly finished jlcpcb parts selection
+
+v0.87 updated readme. Minor changes on schematic and PCB 
 
 ### TODO changes 
 
@@ -156,7 +164,6 @@ v0.86 added R7 1Ω for increasing ESR on 2V5 LDO output with a ceramic capacitor
 ### TODO improvements
 
 * Reduce lenght of board in VGA wing side
-* Modify footprint of USB3 for an economical one
 * PS2:  Jumpers to activate pull-down resistors to enable USB mode
 * If space is needed, make a common ps2 connector for keyb and mouse (ps2 splitter should be used). 
 * Jumper on joystick DB9 pin 5 to change power supply to pin 7 in order to allow other joysticks like the Amiga one to work. Comment from telegram: "El Jumper lo puedes poner para cambiar la alimentación entre pin 5 y 7. De esa forma te funcionara ok los dos y podrás conectar cosas como el ratón de amiga. De los joysticks clásicos, la mayoría son totalmente pasivos y los quickshot II utilizan la alimentación de 5v para el autofire."

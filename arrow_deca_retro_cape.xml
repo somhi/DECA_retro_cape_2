@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/jordi/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch</source>
-    <date>Sat 24 Dec 2022 20:00:04 CET</date>
+    <date>Sat 24 Dec 2022 20:27:17 CET</date>
     <tool>Eeschema 6.0.9-8da3e8f707~117~ubuntu20.04.1</tool>
-    <textvar name="VERSION">0.86</textvar>
+    <textvar name="VERSION">0.87</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>DECA RETRO CAPE 2</title>
         <company>Hard Team Deca</company>
-        <rev>0.86</rev>
+        <rev>0.87</rev>
         <date>2022-03-10</date>
         <source>arrow_deca_retro_cape.kicad_sch</source>
         <comment number="1" value=""/>
@@ -28,11 +28,8 @@
     <comp ref="C18">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="LCSC">C28323</field>
-      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C28323"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -41,11 +38,8 @@
     <comp ref="C19">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="LCSC">C15850</field>
-      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C15850"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,11 +48,8 @@
     <comp ref="C20">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <fields>
-        <field name="LCSC">C49678</field>
-      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C49678"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -79,6 +70,7 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf</datasheet>
       <libsource lib="" part="BZT52Bxx_1" description="500mW Zener Diode, SOD-123F"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -89,6 +81,7 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2005211208_LGE-BZT52C3V9_C545281.pdf</datasheet>
       <libsource lib="" part="BZT52Bxx_1" description="500mW Zener Diode, SOD-123F"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -843,11 +836,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
       <fields>
-        <field name="LCSC">C12087</field>
         <field name="Old">LM1117-2.5</field>
       </fields>
       <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
-      <property name="LCSC" value="C12087"/>
+      <property name="LCSC" value=""/>
       <property name="Old" value="LM1117-2.5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
