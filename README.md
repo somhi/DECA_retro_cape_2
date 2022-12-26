@@ -10,7 +10,7 @@ Project has been developed with KiCAD 6.0.
 
 ### Status
 
-STATUS (08/12/22):  Finalizing design of a new revision.  See end of readme for changelog improvements from v0.71.
+STATUS (26/12/22):  Finalized design v0.90 and production files including BOM and CPL.  See end of readme for changelog improvements from v0.71.
 
 STATUS (07/04/22):  PCBs received. Started [testing](testing.md).  Do not use without modifying voltage protections. Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release.
 
@@ -48,30 +48,38 @@ Thanks to rest of Hard Team DECA (C.Palmero & Rhoderik) and Telegram groups for 
 ### **Important Usage notes**
 
 * Do not connect/disconnect interfaces while the board is powered.
-* Prior to first power on it is required to solder jumper JP2 pins 3V3 and V 
-* Prior to first power on it is required to solder jumper JP7 pin 5V and central pin 
+* Prior to first power on it is required to solder jumpers JP2 (pins 3V3 and V) and JP7 (pin 5V and central pin). Read jumper selection notes below
 * To use MiSTer memory modules place jumpers JP5 and JP6
-* Place jumper JP8 on desired interface (DB9 or USB3) for joystick usage. For USB3, default position for JP9 jumper is I/O.
+* Place jumper JP8 on desired interface (DB9 or USB3) for joystick usage. JP9 jumper default is I/O.
+* For the rest of jumpers read jumper selection notes below. In case of doubt leave the default recommended position.
+* There are a few signals with shared functions that cannot be used at the same time. Those signals are indicated in the PCB silkscreen with ( ) or *, **:
+  * (1), (2) are shared between DETO PMOD and PMOD2
+  * (3) is shared between DETO PMOD and the MUX signal of DB9 when JP3 is soldered
+  * "**" only either DB9 or USB3 connector can be used at the same time (select it by jumper JP8)
+  * "*" signals MISO, MOSI, CS2, SCK are shared between PMOD3 and the four pins of J2 and J3 located between pmods 2 & 3
+
 
 ### **Jumper Selection**
 
-* JP1 jumper select Pmod 3 acting as peripheral (no jumper) or host (with jumper)
+Defaults are OPEN (jumper not placed or not soldered) and CLOSED (jumper placed or soldered)
 
-* JP2 solder jumper selects 3V3 power supply from Deca board or from LDO (5V to 3V3)
+* JP1 jumper select Pmod 3 mode as peripheral (no jumper) or host (with jumper) [default is open]
 
-* JP3 solder jumper, if soldered enables compatibility with Antonio Villena's MiSTer DB9 addons
+* JP2 solder jumper selects 3V3 power supply from Deca board or from an optional LDO [default 3V3]. An optional 5V to 3V3 LDO can be soldered if the board cannot cope with the connected loads.
 
-* JP4 jumper closed enables 5V at VGA pin 9 to make use of VGA to SCART cables for 15 kHz RGB video
+* JP3 solder jumper enables compatibility with Antonio Villena's MiSTer DB9 addons if soldered (MUX signal to allow two joysticks). Be careful, THIS OPTION IS UNTESTED [default open]
 
-* JP5 jumper closed power supply 2x20 Terasic connector with +5V
+* JP4 jumper closed enables 5V at VGA pin 9 to make use of VGA to SCART cables for 15 kHz RGB video [default open]
 
-* JP6 jumper closed power supply 2x20 Terasic connector with +3V3
+* JP5 jumper closed power supply 2x20 Terasic connector with +5V [default closed]
 
-* JP7 solder jumper to select joystick power supply (5V or 2V5 from LDO)
+* JP6 jumper closed power supply 2x20 Terasic connector with +3V3 [default closed]
 
-* JP8 jumper select either DB9 interface or USER IO (USB3)
+* JP7 solder jumper to select joystick power supply (5V or 2V5) [default 5V]
 
-* JP9 jumper select USER IO pin 9 function (signal I/O or 3V3 power)
+* JP8 jumper select either DB9 interface or USER IO (USB3). Only one can be used at a time
+
+* JP9 jumper select USER IO pin 9 function (signal I/O or 3V3 power) [default I/O]
 
 
 ### 3D model
@@ -154,11 +162,9 @@ v0.86 updated datasheets, added R7 1Ω for increasing ESR on 2V5 LDO output with
 
 v0.87 updated readme. Minor changes on schematic and PCB 
 
-### TODO changes 
+v0.90 Finalized design v0.90 and production files including BOM and CPL
 
-* Provide to manufacturer component information to solder the PCBs
 
-  
 
 
 ### TODO improvements
@@ -172,4 +178,4 @@ v0.87 updated readme. Minor changes on schematic and PCB
 
 ### Testing
 
-[testing.md](testing.md)
+[Testings on v0.71 PCB](testing_v0.71.md)

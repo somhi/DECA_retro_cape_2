@@ -3,18 +3,18 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.0-d3dd2cf0fa~116~ubuntu20.04.1"
+      "Version": "6.0.9-8da3e8f707~117~ubuntu20.04.1"
     },
-    "CreationDate": "2022-03-15T23:07:47+01:00"
+    "CreationDate": "2022-12-25T14:44:15+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "arrow_deca_retro_cape",
       "GUID": "6172726f-775f-4646-9563-615f72657472",
-      "Revision": "${VERSION}"
+      "Revision": "0.90"
     },
     "Size": {
-      "X": 100.0332,
+      "X": 100.0347,
       "Y": 100.013
     },
     "LayerNumber": 2,

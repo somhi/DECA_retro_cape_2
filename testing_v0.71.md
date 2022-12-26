@@ -2,7 +2,7 @@
 
 
 
-## Tests v0.71
+## Tests v0.71 PCB
 
 * 2V5 LDO gives 2.5 without connecting Deca. With Deca connected output goes to 2.74 V. With Sega megadrive connected goes to 2.64 V. With Atari joystick 2.74V.
 
