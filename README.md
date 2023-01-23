@@ -10,6 +10,8 @@ Project has been developed with KiCAD 6.0.
 
 ### Status
 
+STATUS (22/01/23): Firsts tests of v0.90 PCB work as expected. Tested connectors VGA, memory, DB9, USB3, PMOD1 & 2, Pmod3 partially, PS2 mouse & keyboard
+
 STATUS (26/12/22):  Finalized design v0.90 and production files including BOM and CPL.  See end of readme for changelog improvements from v0.71.
 
 STATUS (07/04/22):  PCBs received. Started [testing](testing.md).  Do not use without modifying voltage protections. Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release.
