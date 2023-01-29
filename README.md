@@ -10,7 +10,7 @@ Project has been developed with KiCAD 6.0.
 
 ### Status
 
-STATUS (22/01/23): Firsts tests of v0.90 PCB work as expected. Tested connectors VGA, memory, DB9, USB3, PMOD1 & 2, Pmod3 partially, PS2 mouse & keyboard
+STATUS (29/01/23): Tests of v0.90 PCB work as expected, except for JP8 jumper (see [testing notes](testing_v0.90.md)). 
 
 STATUS (26/12/22):  Finalized design v0.90 and production files including BOM and CPL.  See end of readme for changelog improvements from v0.71.
 
@@ -49,10 +49,11 @@ Thanks to rest of Hard Team DECA (C.Palmero & Rhoderik) and Telegram groups for 
 
 ### **Important Usage notes**
 
-* Do not connect/disconnect interfaces while the board is powered.
+* **Better do not connect/disconnect interfaces while the board is powered**
+* **Do not connect two devices simultaneously into DB9 and USB3. Doing so may lead to unpredictabily results and damage the FPGA board**
 * Prior to first power on it is required to solder jumpers JP2 (pins 3V3 and V) and JP7 (pin 5V and central pin). Read jumper selection notes below
-* To use MiSTer memory modules place jumpers JP5 and JP6
-* Place jumper JP8 on desired interface (DB9 or USB3) for joystick usage. JP9 jumper default is I/O.
+* To use MiSTer memory modules place jumper JP6 to power supply 3V3
+* Place jumper JP8 on desired interface (DB9 or USB3) for joystick usage. For USB3 jumper JP9 default is I/O.
 * For the rest of jumpers read jumper selection notes below. In case of doubt leave the default recommended position.
 * There are a few signals with shared functions that cannot be used at the same time. Those signals are indicated in the PCB silkscreen with ( ) or *, **:
   * (1), (2) are shared between DETO PMOD and PMOD2
@@ -79,7 +80,7 @@ Defaults are OPEN (jumper not placed or not soldered) and CLOSED (jumper placed 
 
 * JP7 solder jumper to select joystick power supply (5V or 2V5) [default 5V]
 
-* JP8 jumper select either DB9 interface or USER IO (USB3). Only one can be used at a time
+* JP8 jumper select either DB9 interface or USER IO (USB3). **Only one device can be connected at a time, otherwise might be damaged the FPGA board**
 
 * JP9 jumper select USER IO pin 9 function (signal I/O or 3V3 power) [default I/O]
 
@@ -181,3 +182,5 @@ v0.90 Finalized design v0.90 and production files including BOM and CPL
 ### Testing
 
 [Testings on v0.71 PCB](testing_v0.71.md)
+
+[Testings on v0.90 PCB](testing_v0.90.md)
