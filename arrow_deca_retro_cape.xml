@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/jordi/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch</source>
-    <date>Sat 24 Dec 2022 20:27:17 CET</date>
-    <tool>Eeschema 6.0.9-8da3e8f707~117~ubuntu20.04.1</tool>
-    <textvar name="VERSION">0.87</textvar>
+    <source>/home/jordi/Coding/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/arrow_deca_retro_cape.kicad_sch</source>
+    <date>Tue 31 Jan 2023 20:18:48 CET</date>
+    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
+    <textvar name="VERSION">0.90</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>DECA RETRO CAPE 2</title>
         <company>Hard Team Deca</company>
-        <rev>0.87</rev>
+        <rev>0.90</rev>
         <date>2022-03-10</date>
         <source>arrow_deca_retro_cape.kicad_sch</source>
         <comment number="1" value=""/>
@@ -293,15 +293,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a4bb155e-acd9-4c2b-a7b6-e0bcb49064df</tstamps>
     </comp>
-    <comp ref="J22">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d778ffcf-2ebe-41a1-95dc-d47027bbc417</tstamps>
-    </comp>
     <comp ref="JP1">
       <value>Conn_01x02</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
@@ -373,6 +364,15 @@
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f04b0e03-c653-4d03-b2d8-16712b669a91</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d778ffcf-2ebe-41a1-95dc-d47027bbc417</tstamps>
     </comp>
     <comp ref="R1">
       <value>510</value>
@@ -580,11 +580,7 @@
     <comp ref="R19">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -593,11 +589,7 @@
     <comp ref="R20">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -606,11 +598,7 @@
     <comp ref="R21">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -619,11 +607,7 @@
     <comp ref="R22">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -632,11 +616,7 @@
     <comp ref="R23">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -645,11 +625,7 @@
     <comp ref="R24">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -658,11 +634,7 @@
     <comp ref="R25">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -671,11 +643,7 @@
     <comp ref="R26">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -684,11 +652,7 @@
     <comp ref="R27">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -697,11 +661,7 @@
     <comp ref="R28">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -710,11 +670,7 @@
     <comp ref="R29">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -723,11 +679,7 @@
     <comp ref="R30">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -736,11 +688,7 @@
     <comp ref="R31">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -749,11 +697,7 @@
     <comp ref="R32">
       <value>2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <fields>
-        <field name="Field4">Antonio entre 120 i 180 Ohm (47 també)</field>
-      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Field4" value="Antonio entre 120 i 180 Ohm (47 també)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -812,7 +756,7 @@
       <tstamps>29823d02-53df-4780-a2f2-b575d50d547a</tstamps>
     </comp>
     <comp ref="U1">
-      <value>TXS0108EPW</value>
+      <value>TXS0108EPWR</value>
       <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
       <datasheet>www.ti.com/lit/ds/symlink/txs0108e.pdf</datasheet>
       <libsource lib="Logic_LevelTranslator" part="TXS0108EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
@@ -821,17 +765,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>51c1b300-fe65-40f8-9048-582a33d3fd53</tstamps>
     </comp>
-    <comp ref="U4">
-      <value>LM1117-3.3</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
-      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060fd8327</tstamps>
-    </comp>
-    <comp ref="U5">
+    <comp ref="U2">
       <value>AMS1117-2.5</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
@@ -845,6 +779,16 @@
       <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>370fec4a-03f9-4136-8c5c-39c0e3a95002</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="arrow_deca_retro_cape.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060fd8327</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1303,7 +1247,7 @@
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="zxuno-eagle-import">
-      <uri>/home/jordi/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/libraries/zxuno-eagle-import.kicad_sym</uri>
+      <uri>/home/jordi/Coding/Kicad/a_DECA/DECA_retro_cape_2 (2-layer)/libraries/zxuno-eagle-import.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1317,7 +1261,7 @@
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="OE" pintype="input"/>
       <node ref="U1" pin="2" pinfunction="VCCA" pintype="power_in"/>
-      <node ref="U5" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
     <net code="3" name="+3.3VP">
       <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -1332,10 +1276,10 @@
       <node ref="J12" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J16" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J22" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="JP1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="JP6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP9" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="5" name="+5V">
       <node ref="C18" pin="1" pintype="passive"/>
@@ -1351,8 +1295,8 @@
       <node ref="JP4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="JP5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="U4" pin="3" pinfunction="VI" pintype="power_in"/>
-      <node ref="U5" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="6" name="/+JOY_PWR">
       <node ref="JP7" pin="2" pinfunction="C" pintype="passive"/>
@@ -1370,7 +1314,7 @@
     <net code="9" name="/3V3_LDO">
       <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
-      <node ref="U4" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
     <net code="10" name="/A0">
       <node ref="J6" pin="37" pinfunction="Pin_37" pintype="passive"/>
@@ -1634,11 +1578,11 @@
     </net>
     <net code="71" name="/TX+">
       <node ref="J21" pin="9" pinfunction="SSTX+" pintype="input"/>
-      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP9" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="72" name="/TX+b">
-      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
     <net code="73" name="/TX-">
@@ -1833,8 +1777,8 @@
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
-      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="102" name="GNDA">
       <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
