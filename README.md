@@ -176,6 +176,7 @@ v0.90 Finalized design v0.90 and production files including BOM and CPL
 * PS2:  Jumpers to activate pull-down resistors to enable USB mode
 * If space is needed, make a common ps2 connector for keyb and mouse (ps2 splitter should be used). 
 * Jumper on joystick DB9 pin 5 to change power supply to pin 7 in order to allow other joysticks like the Amiga one to work. Comment from telegram: "El Jumper lo puedes poner para cambiar la alimentación entre pin 5 y 7. De esa forma te funcionara ok los dos y podrás conectar cosas como el ratón de amiga. De los joysticks clásicos, la mayoría son totalmente pasivos y los quickshot II utilizan la alimentación de 5v para el autofire."
+* SDRAM DQ14 and DQ15 position in newer MiSTer modules (xsds) are exchanged respect the older module (xs) I based my design from. This does not affect functionality at all as data in and data out are always in the same order.
 
 
 
