@@ -14,7 +14,7 @@ STATUS (29/01/23): Tests of v0.90 PCB work as expected, except for JP8 jumper (s
 
 STATUS (26/12/22):  Finalized design v0.90 and production files including BOM and CPL.  See end of readme for changelog improvements from v0.71.
 
-STATUS (07/04/22):  PCBs received. Started [testing](testing.md).  Do not use without modifying voltage protections. Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release.
+STATUS (07/04/22):  PCBs v0.71 received. Started [testing](testing.md).  Do not use without modifying voltage protections. Keyboard and Joystick (DB9 and USB3) protections must be redesigned in the next release.
 
 STATUS (15/03/22):  prototype desing work finished. v0.71 gerbers sent to JLCPCB for manufacturing.
 
@@ -54,6 +54,7 @@ Thanks to rest of Hard Team DECA (C.Palmero & Rhoderik) and Telegram groups for 
 * Prior to first power on it is required to solder jumpers JP2 (pins 3V3 and V) and JP7 (pin 5V and central pin). Read jumper selection notes below
 * To use MiSTer memory modules place jumper JP6 to power supply 3V3
 * Place jumper JP8 on desired interface (DB9 or USB3) for joystick usage. For USB3 jumper JP9 default is I/O.
+* For USB3 SNAC adapters **do not** use the [SNAC level shifter adapter](https://manuferhi.com/p/snac-adapter-for-mister) as voltage protection is already included in the cape.
 * For the rest of jumpers read jumper selection notes below. In case of doubt leave the default recommended position.
 * There are a few signals with shared functions that cannot be used at the same time. Those signals are indicated in the PCB silkscreen with ( ) or *, **:
   * (1), (2) are shared between DETO PMOD and PMOD2
