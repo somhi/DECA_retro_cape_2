@@ -52,7 +52,7 @@ Thanks to rest of Hard Team DECA (C.Palmero & Rhoderik) and Telegram groups for 
 * **Better do not connect/disconnect interfaces while the board is powered**
 * **Do not connect two devices simultaneously into DB9 and USB3. Doing so may lead to unpredictabily results and damage the FPGA board**
 * Prior to first power on it is required to solder jumpers JP2 (pins 3V3 and V) and JP7 (pin 5V and central pin). Read jumper selection notes below
-* To use MiSTer memory modules place jumper JP6 to power supply 3V3
+* To use MiSTer memory modules place jumper JP6 to power supply 3V3 (and better left JP5 without jumper)
 * Place jumper JP8 on desired interface (DB9 or USB3) for joystick usage. For USB3 jumper JP9 default is I/O.
 * For USB3 SNAC adapters **do not** use the [SNAC level shifter adapter](https://manuferhi.com/p/snac-adapter-for-mister) as voltage protection is already included in the cape.
 * For the rest of jumpers read jumper selection notes below. In case of doubt leave the default recommended position.
@@ -75,7 +75,7 @@ Defaults are OPEN (jumper not placed or not soldered) and CLOSED (jumper placed 
 
 * JP4 jumper closed enables 5V at VGA pin 9 to make use of VGA to SCART cables for 15 kHz RGB video [default open]
 
-* JP5 jumper closed power supply 2x20 Terasic connector with +5V [default closed]
+* JP5 jumper closed power supply 2x20 Terasic connector with +5V [default open]
 
 * JP6 jumper closed power supply 2x20 Terasic connector with +3V3 [default closed]
 
